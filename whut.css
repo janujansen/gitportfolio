@@ -19,6 +19,7 @@ p {
 	vertical-align:unset;
 	box-sizing:unset;
 	transform:unset;
+	clip-path:unset;
 }
 
 .tip {
@@ -167,6 +168,7 @@ html,body,head {
 	view-transition:unset;
 	background:unset;
 	transform:unset;
+	clip-path:unset;
 
 }
 head {
