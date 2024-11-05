@@ -20,6 +20,7 @@ p {
 	box-sizing:unset;
 	transform:unset;
 	clip-path:unset;
+	y:unset;
 }
 
 .tip {
@@ -169,7 +170,7 @@ html,body,head {
 	background:unset;
 	transform:unset;
 	clip-path:unset;
-
+	y:unset;
 }
 head {
 	position:unset;
