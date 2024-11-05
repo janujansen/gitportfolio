@@ -1,0 +1,182 @@
+p {
+margin-top:0;
+margin-bottom:0;
+letter-spacing:0mm;
+text-align:left;
+text-decoration:none;
+background-color:0;
+word-spacing: 0.07mm;
+}
+
+.tip {
+
+
+	margin-top: 18.0mm;
+	margin-left:0;
+	margin-right:0;
+}
+.tip p:nth-child(1) {
+	font-size: 17.0mm;
+}
+
+.nav p {
+	font-size:7.0mm;
+	display:inline-block;
+	margin-right:7mm;
+
+}
+
+.nav {
+	margin-left:0;
+	margin-right:0;
+}
+
+
+
+.hello p:nth-child(1) {
+	font-size: 7mm;
+}
+
+.hello p:nth-child(2) {
+	font-size: 10mm;
+	margin-bottom:7mm;
+}
+.hello p:nth-child(4) {
+	font-size: 16.0mm;
+	visibility: visible;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.hello {
+	margin-top:30mm;
+	margin-bottom:30mm;
+	margin-left:0;
+	margin-right:0;
+	padding:0 10mm 0 10mm;
+}
+
+.img {
+width:57.0mm;
+height: 80.0mm;
+display:inline-block;
+}
+
+#get {
+	margin-top:30mm;
+	margin-bottom:30mm;
+	margin-left:0;
+	margin-right:0;
+}
+#get p:nth-child(1) {
+	font-size: 10mm;
+}
+#get p:nth-child(2) {
+	font-size: 10mm;
+}
+
+
+#explore {
+	margin-top:30mm;
+	margin-bottom:30mm;
+	margin-left:0;
+	margin-right:0;
+}
+#explore p:nth-child(1) {
+	font-size:10mm;
+}
+#explore p:nth-child(2) {
+	font-size:10mm;
+}
+
+
+
+#browse {
+	margin-top:30mm;
+	margin-bottom:30mm;
+	margin-left:0;
+	margin-right:0;
+}
+#browse p:nth-child(1) {
+	font-size:10mm;
+}
+#browse p:nth-child(2) {
+	font-size:10mm;
+}
+
+#contact {
+	margin-top:30mm;
+	margin-bottom:30mm;
+	margin-left:0;
+	margin-right:0;
+}
+#contact p:nth-child(1) {
+	font-size:10mm;
+}
+#contact p:nth-child(2) {
+	font-size:10mm;
+}
+
+
+
+:root {
+	--white:#F8F7FA;
+	--font:#393535;
+}
+
+body {
+	margin:0 20mm 0 20mm;
+	padding:0 10.0mm 0 10.0mm;
+	width:100%;
+	height:100%;
+	overflow-wrap: break-word;
+	--dialog-scrollgutter: 6mm;
+}
+*::before,*::after {
+box-sizing:border-box;
+}
+
+p {
+	color:var(--font);
+}
+
+
+@font-face {
+font-family: 'c';
+src: url('Molengo-Regular.ttf') format('truetype');
+font-weight:400;
+font-style:normal;
+unicode-range:U+0400-U+04FF;
+}
+p,span,ol,ul,q,s,rt,rp {
+font-family: 'c', sans-serif;
+direction: ltr;
+visibility: visible;
+display: block;
+position:static;
+}
+p {
+font-size:5.0mm;
+}
+
+
+html,body,head,div {
+position:static;
+direction: ltr;
+visibility: visible;
+display: block;
+background-color:0;
+overflow:visible;
+view-transition:auto;
+}
+head {
+position:static;
+overflow:hidden;
+}
+footer {
+	position:static;
+	margin-top:30mm;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+}

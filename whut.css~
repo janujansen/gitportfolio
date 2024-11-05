@@ -1,0 +1,112 @@
+.tip {
+	padding: 0 0 8mm 0;
+	padding-right: 4mm;
+	padding-top: 12mm;
+}
+
+
+.nav p {
+	font-size:10mm;
+	display:inline-block;
+	padding-right:4mm;
+}
+
+.tip p:nth-child(1) {
+	padding-right: 20mm;
+	font-size: 14.00mm;
+}
+.tip p {
+	padding-right: 10mm;
+}
+
+.hello p:nth-child(1) {
+	font-size: 8mm;
+}
+.hello p:nth-child(2) {
+	font-size: 10mm;
+}
+.hello p:nth-child(3) {
+	font-size: 16.0mm;
+	visibility: visible;
+}
+.hello {
+	padding-top:30mm;
+	padding-bottom:30mm;
+	margin-top:2mm;
+}
+.hello img {
+width:67.0mm;
+height: 90.0mm;
+position: absolute;
+left:160mm;
+bottom:30mm;
+
+}
+
+.get {
+	padding-top:30mm;
+	padding-bottom:30mm;
+}
+.get p:nth-child(1) {
+	font-size: 10mm;
+}
+.get p:nth-child(2) {
+	font-size: 10mm;
+}
+
+
+.explore {
+	padding-top:30mm;
+	padding-bottom:30mm;
+}
+.explore p:nth-child(1) {
+	
+}
+
+body {
+	margin:0 0 0 10rem;
+	background-color:#FFFFFF;
+}
+
+.browse {
+	padding-top:30mm;
+	padding-bottom:30mm;
+}
+
+.contact {
+	padding-top:30mm;
+	padding-bottom:30mm;
+}
+
+p {
+color:#170501;
+}
+
+
+
+@font-face {
+font-family: 'c';
+src: url('Spectral-Regular.ttf') format('truetype');
+}
+p,h3,h1,h2,h4,h5,h6,span,ol,ul,q,s,rt,rp {
+font-family: 'c';
+direction: ltr;
+visibility: visible;
+display: block;
+position: relative;
+}
+p {
+font-size:8mm;
+}
+
+
+html,body,head {
+position:relative;
+}
+head,div {
+position:relative;
+}
+footer {
+	position:relative;
+	padding-top:30mm;
+}
