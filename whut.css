@@ -127,10 +127,6 @@ display:inline-block;
 body {
 	margin:0 20mm 0 20mm;
 	padding:0 10.0mm 0 10.0mm;
-	width:100%;
-	height:100%;
-	overflow-wrap: break-word;
-	--dialog-scrollgutter: 6mm;
 }
 *::before,*::after {
 box-sizing:border-box;
