@@ -1,10 +1,10 @@
 p {
 margin-top:0;
 margin-bottom:0;
-letter-spacing:0mm;
+letter-spacing:unset;
 text-align:left;
-text-decoration:none;
-background-color:0;
+text-decoration:unset;
+background-color:unset;
 word-spacing: 0.07mm;
 }
 
@@ -125,14 +125,16 @@ display:inline-block;
 }
 
 body {
-	margin:0 20mm 0 20mm;
+	margin:unset;
+	padding:unset;
+	margin:0 0mm 0 20mm;
 	padding:0 10.0mm 0 10.0mm;
-}
-*::before,*::after {
-box-sizing:border-box;
+	background-color:unset;
 }
 
+
 p {
+	color:unset;
 	color:var(--font);
 }
 
@@ -149,7 +151,7 @@ font-family: 'c', sans-serif;
 direction: ltr;
 visibility: visible;
 display: block;
-position:static;
+position:unset;
 }
 p {
 font-size:5.0mm;
@@ -159,18 +161,18 @@ font-size:5.0mm;
 html,body,head,div {
 position:static;
 direction: ltr;
-visibility: visible;
-display: block;
-background-color:0;
-overflow:visible;
+visibility: unset;
+background-color:unset;
+overflow:unset;
 view-transition:auto;
+
 }
 head {
-position:static;
-overflow:hidden;
+position:unset;
+overflow:unset;
 }
 footer {
-	position:static;
+	position:unset;
 	margin-top:30mm;
 	margin-bottom:0;
 	margin-left:0;
