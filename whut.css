@@ -173,7 +173,8 @@ html,body,head {
 	y:unset;
 }
 head {
-	position:unset;
+	position:absolute;
+	
 }
 div {
 	position:unset;
