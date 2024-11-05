@@ -10,13 +10,15 @@ p {
 	letter-spacing:unset;
 	text-align:left;
 	text-decoration:unset;
-	background-color:unset;
+	background:unset;
 	word-spacing: 0.07mm;
 	color:unset;
 	color:var(--font);
 	font-size:5.0mm;
 	position:static;
 	vertical-align:unset;
+	box-sizing:unset;
+	transform:unset;
 }
 
 .tip {
@@ -163,12 +165,12 @@ html,body,head {
 	position:unset;
 	visibility: unset;
 	view-transition:unset;
-	background-color:unset;
+	background:unset;
+	transform:unset;
 
 }
 head {
 	position:unset;
-	overflow:unset;
 }
 div {
 	position:unset;
