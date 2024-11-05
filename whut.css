@@ -182,6 +182,7 @@ div {
 	background-color:unset;
 	overflow:unset;
 	view-transition:unset;
+	y:unset;
 }
 footer {
 	position:unset;
