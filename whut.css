@@ -49,12 +49,15 @@ p {
 .hello p:nth-child(1) {
 	font-size: 7mm;
 }
+.hello ul li {
+	list-style-type:none;
+}
 
 .hello p:nth-child(2) {
 	font-size: 10mm;
 	margin-bottom:7mm;
 }
-.hello p:nth-child(4) {
+.hello p:nth-child(3) {
 	font-size: 16.0mm;
 	visibility: visible;
 	display:inline-block;
